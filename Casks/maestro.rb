@@ -2,7 +2,7 @@
 # Atualizar a cada release: version, sha256 (saída do scripts/release.sh) e URL se mudar.
 cask "maestro" do
   version "0.1.0"
-  sha256 "PREENCHER_COM_O_SHA256_DA_RELEASE"
+  sha256 "f993e581a01e26284fe582516b1823228e2e66235675f6b7b1d7622ad32fa2b9"
 
   url "https://github.com/kelvynkrug/maestro/releases/download/v#{version}/Maestro-#{version}.zip"
   name "Maestro"
