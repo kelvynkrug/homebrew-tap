@@ -9,11 +9,9 @@ cask "maestro" do
   desc "Controle de volume e saída de áudio por aplicativo"
   homepage "https://github.com/kelvynkrug/maestro"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Maestro.app"
 
-  zap trash: [
-    "~/Library/Preferences/com.kelvynkrug.maestro.plist",
-  ]
+  zap trash: "~/Library/Preferences/com.kelvynkrug.maestro.plist"
 end
